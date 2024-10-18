@@ -53,7 +53,7 @@ Run the test with QEMU
 ./simulate
 ```
 
-###Expected Output
+### Expected Output
 
 ```php
 Test VSPACE0002 passed
