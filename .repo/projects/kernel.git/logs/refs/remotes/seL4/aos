@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 aabe7ec9be0d9ab4d891e280ab22e99e1f0c7f72 Hareesh <hareesh@hareesh-HP-Pavilion-Laptop-15-eg0xxx.(none)> 1729201464 +0530	fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/*: storing head

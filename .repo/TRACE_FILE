@@ -1,0 +1,1012 @@
+PID: 63369 START: 1729201450360726784 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/seL4/sel4test-manifest.git [sid=repo-20241017T214406Z-P0000f789/repo-20241017T214410Z-P0000f789]
+
+PID: 63369 START: 1729201450362511616 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/hareesh/seL4test/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 63369 END: 1729201450363952640 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/hareesh/seL4test/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 63369 START: 1729201450364447744 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 63369 END: 1729201450365386496 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 63369 START: 1729201450365672192 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63369 END: 1729201450366640896 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63369 START: 1729201450366747136 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63369 END: 1729201450367751680 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63369 START: 1729201450367843584 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63369 END: 1729201450368904704 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63369 START: 1729201450369022464 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/seL4/sel4test-manifest.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/seL4/sel4test-manifest.git 1>| 2>|
+
+PID: 63369 END: 1729201450369958144 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/seL4/sel4test-manifest.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/seL4/sel4test-manifest.git 1>| 2>|
+
+PID: 63369 START: 1729201450370054912 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 63369 END: 1729201450370974208 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 63369 START: 1729201450371065856 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 63369 END: 1729201451153515776 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 63369 START: 1729201451154292224 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 63369 END: 1729201451157269504 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 63369 START: 1729201451157755904 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 63369 END: 1729201451164508672 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 63369 START: 1729201451164849152 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 63369 END: 1729201451167419392 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 63369 START: 1729201451168040960 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63369 END: 1729201452514764544 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63369 START: 1729201452515107072 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63369 END: 1729201452519907328 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63369 START: 1729201452520327936 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 63369 END: 1729201452522022400 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 63369 START: 1729201452522337536 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63369 END: 1729201452525413120 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63369 START: 1729201452525496320 :: load refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63369 END: 1729201452525693952 :: load refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63369 START: 1729201452525850880 :: scan refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63369 END: 1729201452525881088 :: scan refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63369 START: 1729201452526037248 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', 'f2bd6715af4068722aab0e0a40421a76122fc04b'] with debug: : git update-ref refs/heads/default f2bd6715af4068722aab0e0a40421a76122fc04b 1>| 2>|
+
+PID: 63369 END: 1729201452527953920 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', 'f2bd6715af4068722aab0e0a40421a76122fc04b'] with debug: : git update-ref refs/heads/default f2bd6715af4068722aab0e0a40421a76122fc04b 1>| 2>|
+
+PID: 63369 START: 1729201452528104704 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 63369 END: 1729201452530067456 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 63369 START: 1729201452534112512 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 63369 END: 1729201452536312832 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 63369 START: 1729201452536615680 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 63369 END: 1729201452538475264 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 63369 END: 1729201452538703616 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/seL4/sel4test-manifest.git [sid=repo-20241017T214406Z-P0000f789/repo-20241017T214410Z-P0000f789]
+
+PID: 63435 START: 1729201460370436864 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20241017T214420Z-P0000f7cb/repo-20241017T214420Z-P0000f7cb]
+
+PID: 63435 START: 1729201460371630080 :git command None ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201460372428800 :git command None ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201460373450752 :git command None ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201460374273536 :git command None ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201460377249536 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/hareesh/seL4test/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 END: 1729201461395034112 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/hareesh/seL4test/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 START: 1729201461395212544 :: load refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63435 END: 1729201461395663360 :: load refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63435 START: 1729201461395956224 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'symbolic-ref', '-m', 'manifest set to refs/heads/master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to refs/heads/master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 63435 END: 1729201461397285376 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'symbolic-ref', '-m', 'manifest set to refs/heads/master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to refs/heads/master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 63435 START: 1729201461397352192 :: scan refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63435 END: 1729201461397378304 :: scan refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63435 START: 1729201461397393408 :: load refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63435 END: 1729201461397577216 :: load refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63435 START: 1729201461397601280 :: scan refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63435 END: 1729201461397629440 :: scan refs /home/hareesh/seL4test/.repo/manifests.git
+
+PID: 63435 START: 1729201461397869568 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.existingprojectcount', '0'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.existingprojectcount 0 1>| 2>|
+
+PID: 63435 END: 1729201461398801152 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.existingprojectcount', '0'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.existingprojectcount 0 1>| 2>|
+
+PID: 63435 START: 1729201461398900736 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.newprojectcount', '10'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.newprojectcount 10 1>| 2>|
+
+PID: 63435 END: 1729201461406004224 :git command /home/hareesh/seL4test/.repo/manifests.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.newprojectcount', '10'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.newprojectcount 10 1>| 2>|
+
+PID: 63435 START: 1729201461426614016 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/seL4.git.git
+: git init 1>| 2>|
+
+PID: 63435 END: 1729201461429054976 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/seL4.git.git
+: git init 1>| 2>|
+
+PID: 63435 START: 1729201461430534400 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201461431644416 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201461431895552 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 END: 1729201461432927744 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 START: 1729201461433036032 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 END: 1729201461434047744 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 START: 1729201461434152960 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 END: 1729201461435006464 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 START: 1729201461435140096 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/seL4.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/seL4.git 1>| 2>|
+
+PID: 63435 END: 1729201461436057600 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/seL4.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/seL4.git 1>| 2>|
+
+PID: 63435 START: 1729201461436153856 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.projectname seL4.git 1>| 2>|
+
+PID: 63435 END: 1729201461437048576 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.projectname seL4.git 1>| 2>|
+
+PID: 63435 START: 1729201461437142016 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 END: 1729201461437970688 :git command /home/hareesh/seL4test/.repo/project-objects/seL4.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/kernel.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/kernel.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 START: 1729201461438094080 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/kernel.git/clone.bundle.tmp --netrc --location https://github.com/seL4/seL4.git/clone.bundle
+
+PID: 63435 END: 1729201461438295552 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/kernel.git/clone.bundle.tmp --netrc --location https://github.com/seL4/seL4.git/clone.bundle
+
+PID: 63435 START: 1729201461900935424 :git command /home/hareesh/seL4test/.repo/projects/kernel.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/kernel.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/seL4.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 END: 1729201464962981376 :git command /home/hareesh/seL4test/.repo/projects/kernel.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/kernel.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/seL4.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 START: 1729201464963163136 :git command /home/hareesh/seL4test/.repo/projects/kernel.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 END: 1729201464967524352 :git command /home/hareesh/seL4test/.repo/projects/kernel.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 START: 1729201464967597312 :: load refs /home/hareesh/seL4test/.repo/projects/kernel.git
+
+PID: 63435 END: 1729201464967772160 :: load refs /home/hareesh/seL4test/.repo/projects/kernel.git
+
+PID: 63435 START: 1729201464967789824 :: scan refs /home/hareesh/seL4test/.repo/projects/kernel.git
+
+PID: 63435 END: 1729201464967806720 :: scan refs /home/hareesh/seL4test/.repo/projects/kernel.git
+
+PID: 63435 START: 1729201464967900672 :git command /home/hareesh/seL4test/.repo/projects/kernel.git ['git', 'update-ref', '-m', 'manifest set to 8f88c958fc6ccb6b7bbd6b3ad83c4103c4185912', '--no-deref', 'refs/remotes/m/master', '8f88c958fc6ccb6b7bbd6b3ad83c4103c4185912^0'] with debug: : git update-ref -m manifest set to 8f88c958fc6ccb6b7bbd6b3ad83c4103c4185912 --no-deref refs/remotes/m/master 8f88c958fc6ccb6b7bbd6b3ad83c4103c4185912^0 1>| 2>|
+
+PID: 63435 END: 1729201464969266176 :git command /home/hareesh/seL4test/.repo/projects/kernel.git ['git', 'update-ref', '-m', 'manifest set to 8f88c958fc6ccb6b7bbd6b3ad83c4103c4185912', '--no-deref', 'refs/remotes/m/master', '8f88c958fc6ccb6b7bbd6b3ad83c4103c4185912^0'] with debug: : git update-ref -m manifest set to 8f88c958fc6ccb6b7bbd6b3ad83c4103c4185912 --no-deref refs/remotes/m/master 8f88c958fc6ccb6b7bbd6b3ad83c4103c4185912^0 1>| 2>|
+
+PID: 63435 START: 1729201464969821440 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/musllibc.git.git
+: git init 1>| 2>|
+
+PID: 63435 END: 1729201464972329472 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/musllibc.git.git
+: git init 1>| 2>|
+
+PID: 63435 START: 1729201464973549056 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201464974404864 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201464974556160 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 END: 1729201464975525632 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 START: 1729201464975618560 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 END: 1729201464976432896 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 START: 1729201464976524544 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 END: 1729201464977527296 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 START: 1729201464977636608 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/musllibc.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/musllibc.git 1>| 2>|
+
+PID: 63435 END: 1729201464978549248 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/musllibc.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/musllibc.git 1>| 2>|
+
+PID: 63435 START: 1729201464978639616 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'musllibc.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.projectname musllibc.git 1>| 2>|
+
+PID: 63435 END: 1729201464979640064 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'musllibc.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.projectname musllibc.git 1>| 2>|
+
+PID: 63435 START: 1729201464979729152 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 END: 1729201464980668928 :git command /home/hareesh/seL4test/.repo/project-objects/musllibc.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 START: 1729201464980760576 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/clone.bundle.tmp --netrc --location https://github.com/seL4/musllibc.git/clone.bundle
+
+PID: 63435 END: 1729201464980923392 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/musllibc.git/clone.bundle.tmp --netrc --location https://github.com/seL4/musllibc.git/clone.bundle
+
+PID: 63435 START: 1729201470506577152 :git command /home/hareesh/seL4test/.repo/projects/projects/musllibc.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/sel4:refs/remotes/seL4/sel4', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/musllibc.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/musllibc.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/sel4:refs/remotes/seL4/sel4 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 END: 1729201472204175616 :git command /home/hareesh/seL4test/.repo/projects/projects/musllibc.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/sel4:refs/remotes/seL4/sel4', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/musllibc.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/musllibc.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/sel4:refs/remotes/seL4/sel4 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 START: 1729201472204378112 :git command /home/hareesh/seL4test/.repo/projects/projects/musllibc.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 END: 1729201472206870528 :git command /home/hareesh/seL4test/.repo/projects/projects/musllibc.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 START: 1729201472206931968 :: load refs /home/hareesh/seL4test/.repo/projects/projects/musllibc.git
+
+PID: 63435 END: 1729201472207064576 :: load refs /home/hareesh/seL4test/.repo/projects/projects/musllibc.git
+
+PID: 63435 START: 1729201472207080960 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/musllibc.git
+
+PID: 63435 END: 1729201472207098368 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/musllibc.git
+
+PID: 63435 START: 1729201472207189760 :git command /home/hareesh/seL4test/.repo/projects/projects/musllibc.git ['git', 'update-ref', '-m', 'manifest set to 9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b', '--no-deref', 'refs/remotes/m/master', '9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b^0'] with debug: : git update-ref -m manifest set to 9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b --no-deref refs/remotes/m/master 9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b^0 1>| 2>|
+
+PID: 63435 END: 1729201472208609024 :git command /home/hareesh/seL4test/.repo/projects/projects/musllibc.git ['git', 'update-ref', '-m', 'manifest set to 9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b', '--no-deref', 'refs/remotes/m/master', '9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b^0'] with debug: : git update-ref -m manifest set to 9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b --no-deref refs/remotes/m/master 9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b^0 1>| 2>|
+
+PID: 63435 START: 1729201472209096192 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git
+: git init 1>| 2>|
+
+PID: 63435 END: 1729201472210565376 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git
+: git init 1>| 2>|
+
+PID: 63435 START: 1729201472211815424 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201472212614144 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201472212771328 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 END: 1729201472213825536 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 START: 1729201472213921280 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 END: 1729201472214896640 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 START: 1729201472214992640 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 END: 1729201472215933696 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 START: 1729201472216047104 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/seL4_libs.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/seL4_libs.git 1>| 2>|
+
+PID: 63435 END: 1729201472217011200 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/seL4_libs.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/seL4_libs.git 1>| 2>|
+
+PID: 63435 START: 1729201472217102336 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4_libs.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.projectname seL4_libs.git 1>| 2>|
+
+PID: 63435 END: 1729201472217990400 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4_libs.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.projectname seL4_libs.git 1>| 2>|
+
+PID: 63435 START: 1729201472218079488 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 END: 1729201472219026432 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 START: 1729201472219126016 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/clone.bundle.tmp --netrc --location https://github.com/seL4/seL4_libs.git/clone.bundle
+
+PID: 63435 END: 1729201472219294464 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git/clone.bundle.tmp --netrc --location https://github.com/seL4/seL4_libs.git/clone.bundle
+
+PID: 63435 START: 1729201472657536000 :git command /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 END: 1729201474320295680 :git command /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/seL4_libs.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 START: 1729201474320481536 :git command /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 END: 1729201474322975232 :git command /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 START: 1729201474323028992 :: load refs /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git
+
+PID: 63435 END: 1729201474323155712 :: load refs /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git
+
+PID: 63435 START: 1729201474323170816 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git
+
+PID: 63435 END: 1729201474323187968 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git
+
+PID: 63435 START: 1729201474323275520 :git command /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git ['git', 'update-ref', '-m', 'manifest set to 88c761538b60a162d008a85642b516ee6707ed7e', '--no-deref', 'refs/remotes/m/master', '88c761538b60a162d008a85642b516ee6707ed7e^0'] with debug: : git update-ref -m manifest set to 88c761538b60a162d008a85642b516ee6707ed7e --no-deref refs/remotes/m/master 88c761538b60a162d008a85642b516ee6707ed7e^0 1>| 2>|
+
+PID: 63435 END: 1729201474324596736 :git command /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git ['git', 'update-ref', '-m', 'manifest set to 88c761538b60a162d008a85642b516ee6707ed7e', '--no-deref', 'refs/remotes/m/master', '88c761538b60a162d008a85642b516ee6707ed7e^0'] with debug: : git update-ref -m manifest set to 88c761538b60a162d008a85642b516ee6707ed7e --no-deref refs/remotes/m/master 88c761538b60a162d008a85642b516ee6707ed7e^0 1>| 2>|
+
+PID: 63435 START: 1729201474325036544 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git
+: git init 1>| 2>|
+
+PID: 63435 END: 1729201474326708480 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git
+: git init 1>| 2>|
+
+PID: 63435 START: 1729201474327889920 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201474328709120 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201474328856320 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 END: 1729201474329948928 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 START: 1729201474330043904 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 END: 1729201474330976512 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 START: 1729201474331073536 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 END: 1729201474331971584 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 START: 1729201474332082944 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/sel4_projects_libs'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/sel4_projects_libs 1>| 2>|
+
+PID: 63435 END: 1729201474333073408 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/sel4_projects_libs'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/sel4_projects_libs 1>| 2>|
+
+PID: 63435 START: 1729201474333166592 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4_projects_libs'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.projectname sel4_projects_libs 1>| 2>|
+
+PID: 63435 END: 1729201474334063360 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4_projects_libs'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.projectname sel4_projects_libs 1>| 2>|
+
+PID: 63435 START: 1729201474334157056 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 END: 1729201474334973184 :git command /home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 START: 1729201474335099392 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/clone.bundle.tmp --netrc --location https://github.com/seL4/sel4_projects_libs/clone.bundle
+
+PID: 63435 END: 1729201474335464704 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git/clone.bundle.tmp --netrc --location https://github.com/seL4/sel4_projects_libs/clone.bundle
+
+PID: 63435 START: 1729201474807363328 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 END: 1729201476449592832 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/sel4_projects_libs.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 START: 1729201476449781760 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 END: 1729201476451717120 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 START: 1729201476451777024 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 63435 END: 1729201476451908608 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 63435 START: 1729201476451923456 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 63435 END: 1729201476451940608 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 63435 START: 1729201476452030464 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'update-ref', '-m', 'manifest set to 97360824eebc80e9a68fef9ef699f3c0ff8bd792', '--no-deref', 'refs/remotes/m/master', '97360824eebc80e9a68fef9ef699f3c0ff8bd792^0'] with debug: : git update-ref -m manifest set to 97360824eebc80e9a68fef9ef699f3c0ff8bd792 --no-deref refs/remotes/m/master 97360824eebc80e9a68fef9ef699f3c0ff8bd792^0 1>| 2>|
+
+PID: 63435 END: 1729201476453593088 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git ['git', 'update-ref', '-m', 'manifest set to 97360824eebc80e9a68fef9ef699f3c0ff8bd792', '--no-deref', 'refs/remotes/m/master', '97360824eebc80e9a68fef9ef699f3c0ff8bd792^0'] with debug: : git update-ref -m manifest set to 97360824eebc80e9a68fef9ef699f3c0ff8bd792 --no-deref refs/remotes/m/master 97360824eebc80e9a68fef9ef699f3c0ff8bd792^0 1>| 2>|
+
+PID: 63435 START: 1729201476454140160 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git
+: git init 1>| 2>|
+
+PID: 63435 END: 1729201476455756032 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git
+: git init 1>| 2>|
+
+PID: 63435 START: 1729201476457018880 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201476457858048 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201476457996288 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 END: 1729201476459063552 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 START: 1729201476459153920 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 END: 1729201476460065792 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 START: 1729201476460205056 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 END: 1729201476461336320 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 START: 1729201476461484800 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/sel4runtime.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/sel4runtime.git 1>| 2>|
+
+PID: 63435 END: 1729201476462386688 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/sel4runtime.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/sel4runtime.git 1>| 2>|
+
+PID: 63435 START: 1729201476462489856 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4runtime.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.projectname sel4runtime.git 1>| 2>|
+
+PID: 63435 END: 1729201476463608576 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4runtime.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.projectname sel4runtime.git 1>| 2>|
+
+PID: 63435 START: 1729201476463751936 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 END: 1729201476464701440 :git command /home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 START: 1729201476464798464 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/clone.bundle.tmp --netrc --location https://github.com/seL4/sel4runtime.git/clone.bundle
+
+PID: 63435 END: 1729201476464972032 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git/clone.bundle.tmp --netrc --location https://github.com/seL4/sel4runtime.git/clone.bundle
+
+PID: 63435 START: 1729201476958187776 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 END: 1729201478160797952 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/sel4runtime.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 START: 1729201478161184512 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 END: 1729201478164863744 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 START: 1729201478165012992 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git
+
+PID: 63435 END: 1729201478165315072 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git
+
+PID: 63435 START: 1729201478165355520 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git
+
+PID: 63435 END: 1729201478165403648 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git
+
+PID: 63435 START: 1729201478165639936 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git ['git', 'update-ref', '-m', 'manifest set to bb75358167fe8bdc0e3df565bb419dc6eb150a60', '--no-deref', 'refs/remotes/m/master', 'bb75358167fe8bdc0e3df565bb419dc6eb150a60^0'] with debug: : git update-ref -m manifest set to bb75358167fe8bdc0e3df565bb419dc6eb150a60 --no-deref refs/remotes/m/master bb75358167fe8bdc0e3df565bb419dc6eb150a60^0 1>| 2>|
+
+PID: 63435 END: 1729201478169114624 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git ['git', 'update-ref', '-m', 'manifest set to bb75358167fe8bdc0e3df565bb419dc6eb150a60', '--no-deref', 'refs/remotes/m/master', 'bb75358167fe8bdc0e3df565bb419dc6eb150a60^0'] with debug: : git update-ref -m manifest set to bb75358167fe8bdc0e3df565bb419dc6eb150a60 --no-deref refs/remotes/m/master bb75358167fe8bdc0e3df565bb419dc6eb150a60^0 1>| 2>|
+
+PID: 63435 START: 1729201478170143744 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/sel4test.git.git
+: git init 1>| 2>|
+
+PID: 63435 END: 1729201478174417664 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/sel4test.git.git
+: git init 1>| 2>|
+
+PID: 63435 START: 1729201478177784576 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201478179986176 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201478180348928 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 END: 1729201478182550016 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 START: 1729201478182804736 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 END: 1729201478185093376 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 START: 1729201478185330176 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 END: 1729201478187456000 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 START: 1729201478187751936 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/sel4test.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/sel4test.git 1>| 2>|
+
+PID: 63435 END: 1729201478189910016 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/sel4test.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/sel4test.git 1>| 2>|
+
+PID: 63435 START: 1729201478190131456 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4test.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.projectname sel4test.git 1>| 2>|
+
+PID: 63435 END: 1729201478192494080 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'sel4test.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.projectname sel4test.git 1>| 2>|
+
+PID: 63435 START: 1729201478192722432 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 END: 1729201478194821632 :git command /home/hareesh/seL4test/.repo/project-objects/sel4test.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 START: 1729201478195014656 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/clone.bundle.tmp --netrc --location https://github.com/seL4/sel4test.git/clone.bundle
+
+PID: 63435 END: 1729201478195526400 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/sel4test.git/clone.bundle.tmp --netrc --location https://github.com/seL4/sel4test.git/clone.bundle
+
+PID: 63435 START: 1729201478698329344 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4test.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/sel4test.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/sel4test.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 END: 1729201480261638656 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4test.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/sel4test.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/sel4test.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 START: 1729201480261834496 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4test.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 END: 1729201480264427264 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4test.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 START: 1729201480264479744 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4test.git
+
+PID: 63435 END: 1729201480264613376 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4test.git
+
+PID: 63435 START: 1729201480264628736 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/sel4test.git
+
+PID: 63435 END: 1729201480264646656 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/sel4test.git
+
+PID: 63435 START: 1729201480264738816 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4test.git ['git', 'update-ref', '-m', 'manifest set to fe4839eb4a59c9b9d02bb7eb626d5fbea653c29b', '--no-deref', 'refs/remotes/m/master', 'fe4839eb4a59c9b9d02bb7eb626d5fbea653c29b^0'] with debug: : git update-ref -m manifest set to fe4839eb4a59c9b9d02bb7eb626d5fbea653c29b --no-deref refs/remotes/m/master fe4839eb4a59c9b9d02bb7eb626d5fbea653c29b^0 1>| 2>|
+
+PID: 63435 END: 1729201480265997056 :git command /home/hareesh/seL4test/.repo/projects/projects/sel4test.git ['git', 'update-ref', '-m', 'manifest set to fe4839eb4a59c9b9d02bb7eb626d5fbea653c29b', '--no-deref', 'refs/remotes/m/master', 'fe4839eb4a59c9b9d02bb7eb626d5fbea653c29b^0'] with debug: : git update-ref -m manifest set to fe4839eb4a59c9b9d02bb7eb626d5fbea653c29b --no-deref refs/remotes/m/master fe4839eb4a59c9b9d02bb7eb626d5fbea653c29b^0 1>| 2>|
+
+PID: 63435 START: 1729201480266431232 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/util_libs.git.git
+: git init 1>| 2>|
+
+PID: 63435 END: 1729201480268022784 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/util_libs.git.git
+: git init 1>| 2>|
+
+PID: 63435 START: 1729201480269265920 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201480270134016 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201480270288128 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 END: 1729201480271337728 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 START: 1729201480271431680 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 END: 1729201480272282368 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 START: 1729201480272370688 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 END: 1729201480273382656 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 START: 1729201480273499392 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/util_libs.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/util_libs.git 1>| 2>|
+
+PID: 63435 END: 1729201480274427648 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/util_libs.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/util_libs.git 1>| 2>|
+
+PID: 63435 START: 1729201480274528512 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'util_libs.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.projectname util_libs.git 1>| 2>|
+
+PID: 63435 END: 1729201480275478016 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'util_libs.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.projectname util_libs.git 1>| 2>|
+
+PID: 63435 START: 1729201480275573760 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 END: 1729201480276421632 :git command /home/hareesh/seL4test/.repo/project-objects/util_libs.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 START: 1729201480276518400 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/clone.bundle.tmp --netrc --location https://github.com/seL4/util_libs.git/clone.bundle
+
+PID: 63435 END: 1729201480276703744 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/projects/util_libs.git/clone.bundle.tmp --netrc --location https://github.com/seL4/util_libs.git/clone.bundle
+
+PID: 63435 START: 1729201480744753408 :git command /home/hareesh/seL4test/.repo/projects/projects/util_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/util_libs.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/util_libs.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 END: 1729201482837920512 :git command /home/hareesh/seL4test/.repo/projects/projects/util_libs.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/projects/util_libs.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/util_libs.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 START: 1729201482838104832 :git command /home/hareesh/seL4test/.repo/projects/projects/util_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 END: 1729201482840531712 :git command /home/hareesh/seL4test/.repo/projects/projects/util_libs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 START: 1729201482840585216 :: load refs /home/hareesh/seL4test/.repo/projects/projects/util_libs.git
+
+PID: 63435 END: 1729201482840720896 :: load refs /home/hareesh/seL4test/.repo/projects/projects/util_libs.git
+
+PID: 63435 START: 1729201482840748800 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/util_libs.git
+
+PID: 63435 END: 1729201482840765696 :: scan refs /home/hareesh/seL4test/.repo/projects/projects/util_libs.git
+
+PID: 63435 START: 1729201482840852224 :git command /home/hareesh/seL4test/.repo/projects/projects/util_libs.git ['git', 'update-ref', '-m', 'manifest set to f98dad12344a4c0fecf37bd11c82692ecc7a4a9a', '--no-deref', 'refs/remotes/m/master', 'f98dad12344a4c0fecf37bd11c82692ecc7a4a9a^0'] with debug: : git update-ref -m manifest set to f98dad12344a4c0fecf37bd11c82692ecc7a4a9a --no-deref refs/remotes/m/master f98dad12344a4c0fecf37bd11c82692ecc7a4a9a^0 1>| 2>|
+
+PID: 63435 END: 1729201482842195200 :git command /home/hareesh/seL4test/.repo/projects/projects/util_libs.git ['git', 'update-ref', '-m', 'manifest set to f98dad12344a4c0fecf37bd11c82692ecc7a4a9a', '--no-deref', 'refs/remotes/m/master', 'f98dad12344a4c0fecf37bd11c82692ecc7a4a9a^0'] with debug: : git update-ref -m manifest set to f98dad12344a4c0fecf37bd11c82692ecc7a4a9a --no-deref refs/remotes/m/master f98dad12344a4c0fecf37bd11c82692ecc7a4a9a^0 1>| 2>|
+
+PID: 63435 START: 1729201482842688512 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/nanopb.git
+: git init 1>| 2>|
+
+PID: 63435 END: 1729201482844385024 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/nanopb.git
+: git init 1>| 2>|
+
+PID: 63435 START: 1729201482845663232 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201482846533888 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201482846683648 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 END: 1729201482847660544 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 START: 1729201482847757312 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 END: 1729201482848701952 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 START: 1729201482848800512 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 END: 1729201482849592576 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 START: 1729201482849707264 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.url', 'https://github.com/nanopb/nanopb'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.url https://github.com/nanopb/nanopb 1>| 2>|
+
+PID: 63435 END: 1729201482850604288 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.url', 'https://github.com/nanopb/nanopb'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.url https://github.com/nanopb/nanopb 1>| 2>|
+
+PID: 63435 START: 1729201482850695680 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.projectname', 'nanopb'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.projectname nanopb 1>| 2>|
+
+PID: 63435 END: 1729201482851468544 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.projectname', 'nanopb'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.projectname nanopb 1>| 2>|
+
+PID: 63435 START: 1729201482851558656 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.fetch', '+refs/heads/*:refs/remotes/nanopb/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.fetch +refs/heads/*:refs/remotes/nanopb/* 1>| 2>|
+
+PID: 63435 END: 1729201482852541952 :git command /home/hareesh/seL4test/.repo/project-objects/nanopb.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config', '--includes', '--replace-all', 'remote.nanopb.fetch', '+refs/heads/*:refs/remotes/nanopb/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/config --includes --replace-all remote.nanopb.fetch +refs/heads/*:refs/remotes/nanopb/* 1>| 2>|
+
+PID: 63435 START: 1729201482852640000 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/clone.bundle.tmp --netrc --location https://github.com/nanopb/nanopb/clone.bundle
+
+PID: 63435 END: 1729201482852870144 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/tools/nanopb.git/clone.bundle.tmp --netrc --location https://github.com/nanopb/nanopb/clone.bundle
+
+PID: 63435 START: 1729201483306105088 :git command /home/hareesh/seL4test/.repo/projects/tools/nanopb.git ['git', 'fetch', '--quiet', '--progress', 'nanopb', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/nanopb/*', '+refs/heads/master:refs/remotes/nanopb/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/tools/nanopb.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/nanopb.git/objects
+: git fetch --quiet --progress nanopb --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/nanopb/* +refs/heads/master:refs/remotes/nanopb/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 END: 1729201485013078016 :git command /home/hareesh/seL4test/.repo/projects/tools/nanopb.git ['git', 'fetch', '--quiet', '--progress', 'nanopb', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/nanopb/*', '+refs/heads/master:refs/remotes/nanopb/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/tools/nanopb.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/nanopb.git/objects
+: git fetch --quiet --progress nanopb --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/nanopb/* +refs/heads/master:refs/remotes/nanopb/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 START: 1729201485013244160 :git command /home/hareesh/seL4test/.repo/projects/tools/nanopb.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 END: 1729201485018577664 :git command /home/hareesh/seL4test/.repo/projects/tools/nanopb.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 START: 1729201485018644224 :: load refs /home/hareesh/seL4test/.repo/projects/tools/nanopb.git
+
+PID: 63435 END: 1729201485018825728 :: load refs /home/hareesh/seL4test/.repo/projects/tools/nanopb.git
+
+PID: 63435 START: 1729201485018840832 :: scan refs /home/hareesh/seL4test/.repo/projects/tools/nanopb.git
+
+PID: 63435 END: 1729201485018857728 :: scan refs /home/hareesh/seL4test/.repo/projects/tools/nanopb.git
+
+PID: 63435 START: 1729201485018950144 :git command /home/hareesh/seL4test/.repo/projects/tools/nanopb.git ['git', 'update-ref', '-m', 'manifest set to 1466e6f953835b191a7f5acf0c06c941d4cd33d9', '--no-deref', 'refs/remotes/m/master', '1466e6f953835b191a7f5acf0c06c941d4cd33d9^0'] with debug: : git update-ref -m manifest set to 1466e6f953835b191a7f5acf0c06c941d4cd33d9 --no-deref refs/remotes/m/master 1466e6f953835b191a7f5acf0c06c941d4cd33d9^0 1>| 2>|
+
+PID: 63435 END: 1729201485020401408 :git command /home/hareesh/seL4test/.repo/projects/tools/nanopb.git ['git', 'update-ref', '-m', 'manifest set to 1466e6f953835b191a7f5acf0c06c941d4cd33d9', '--no-deref', 'refs/remotes/m/master', '1466e6f953835b191a7f5acf0c06c941d4cd33d9^0'] with debug: : git update-ref -m manifest set to 1466e6f953835b191a7f5acf0c06c941d4cd33d9 --no-deref refs/remotes/m/master 1466e6f953835b191a7f5acf0c06c941d4cd33d9^0 1>| 2>|
+
+PID: 63435 START: 1729201485020841472 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/opensbi.git
+: git init 1>| 2>|
+
+PID: 63435 END: 1729201485022488320 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/opensbi.git
+: git init 1>| 2>|
+
+PID: 63435 START: 1729201485024031488 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201485025165056 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201485025351680 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 END: 1729201485026406656 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 START: 1729201485026510592 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 END: 1729201485027562752 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 START: 1729201485027702272 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 END: 1729201485028652544 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 START: 1729201485028799488 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.url', 'https://github.com/riscv/opensbi'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.url https://github.com/riscv/opensbi 1>| 2>|
+
+PID: 63435 END: 1729201485030018816 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.url', 'https://github.com/riscv/opensbi'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.url https://github.com/riscv/opensbi 1>| 2>|
+
+PID: 63435 START: 1729201485030125056 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.projectname', 'opensbi'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.projectname opensbi 1>| 2>|
+
+PID: 63435 END: 1729201485031243008 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.projectname', 'opensbi'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.projectname opensbi 1>| 2>|
+
+PID: 63435 START: 1729201485031352576 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.fetch', '+refs/heads/*:refs/remotes/opensbi/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.fetch +refs/heads/*:refs/remotes/opensbi/* 1>| 2>|
+
+PID: 63435 END: 1729201485032572672 :git command /home/hareesh/seL4test/.repo/project-objects/opensbi.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config', '--includes', '--replace-all', 'remote.opensbi.fetch', '+refs/heads/*:refs/remotes/opensbi/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/config --includes --replace-all remote.opensbi.fetch +refs/heads/*:refs/remotes/opensbi/* 1>| 2>|
+
+PID: 63435 START: 1729201485032703232 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/clone.bundle.tmp --netrc --location https://github.com/riscv/opensbi/clone.bundle
+
+PID: 63435 END: 1729201485032983040 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/tools/opensbi.git/clone.bundle.tmp --netrc --location https://github.com/riscv/opensbi/clone.bundle
+
+PID: 63435 START: 1729201485560963584 :git command /home/hareesh/seL4test/.repo/projects/tools/opensbi.git ['git', 'fetch', '--quiet', '--progress', 'opensbi', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/opensbi/*', '+refs/tags/v0.9:refs/tags/v0.9', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/tools/opensbi.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/opensbi.git/objects
+: git fetch --quiet --progress opensbi --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/opensbi/* +refs/tags/v0.9:refs/tags/v0.9 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 END: 1729201487007418624 :git command /home/hareesh/seL4test/.repo/projects/tools/opensbi.git ['git', 'fetch', '--quiet', '--progress', 'opensbi', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/opensbi/*', '+refs/tags/v0.9:refs/tags/v0.9', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/tools/opensbi.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/opensbi.git/objects
+: git fetch --quiet --progress opensbi --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/opensbi/* +refs/tags/v0.9:refs/tags/v0.9 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 START: 1729201487007610112 :git command /home/hareesh/seL4test/.repo/projects/tools/opensbi.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 END: 1729201487009799680 :git command /home/hareesh/seL4test/.repo/projects/tools/opensbi.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 START: 1729201487009859072 :: load refs /home/hareesh/seL4test/.repo/projects/tools/opensbi.git
+
+PID: 63435 END: 1729201487009979392 :: load refs /home/hareesh/seL4test/.repo/projects/tools/opensbi.git
+
+PID: 63435 START: 1729201487009994752 :: scan refs /home/hareesh/seL4test/.repo/projects/tools/opensbi.git
+
+PID: 63435 END: 1729201487010011648 :: scan refs /home/hareesh/seL4test/.repo/projects/tools/opensbi.git
+
+PID: 63435 START: 1729201487010096896 :git command /home/hareesh/seL4test/.repo/projects/tools/opensbi.git ['git', 'update-ref', '-m', 'manifest set to 234ed8e427f4d92903123199f6590d144e0d9351', '--no-deref', 'refs/remotes/m/master', '234ed8e427f4d92903123199f6590d144e0d9351^0'] with debug: : git update-ref -m manifest set to 234ed8e427f4d92903123199f6590d144e0d9351 --no-deref refs/remotes/m/master 234ed8e427f4d92903123199f6590d144e0d9351^0 1>| 2>|
+
+PID: 63435 END: 1729201487011442688 :git command /home/hareesh/seL4test/.repo/projects/tools/opensbi.git ['git', 'update-ref', '-m', 'manifest set to 234ed8e427f4d92903123199f6590d144e0d9351', '--no-deref', 'refs/remotes/m/master', '234ed8e427f4d92903123199f6590d144e0d9351^0'] with debug: : git update-ref -m manifest set to 234ed8e427f4d92903123199f6590d144e0d9351 --no-deref refs/remotes/m/master 234ed8e427f4d92903123199f6590d144e0d9351^0 1>| 2>|
+
+PID: 63435 START: 1729201487011838464 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git
+: git init 1>| 2>|
+
+PID: 63435 END: 1729201487013385728 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git
+: git init 1>| 2>|
+
+PID: 63435 START: 1729201487014654208 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 END: 1729201487015507200 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --null --list 1>| 2>|
+
+PID: 63435 START: 1729201487015655168 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 END: 1729201487016707072 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 63435 START: 1729201487016801536 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 END: 1729201487017835264 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 63435 START: 1729201487017926656 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 END: 1729201487018900224 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 63435 START: 1729201487019015936 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/seL4_tools.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/seL4_tools.git 1>| 2>|
+
+PID: 63435 END: 1729201487020115968 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.url', 'https://github.com/seL4/seL4_tools.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.url https://github.com/seL4/seL4_tools.git 1>| 2>|
+
+PID: 63435 START: 1729201487020204800 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4_tools.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.projectname seL4_tools.git 1>| 2>|
+
+PID: 63435 END: 1729201487021106688 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.projectname', 'seL4_tools.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.projectname seL4_tools.git 1>| 2>|
+
+PID: 63435 START: 1729201487021195520 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 END: 1729201487022097664 :git command /home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/projects/tools/seL4.git/config', '--includes', '--replace-all', 'remote.seL4.fetch', '+refs/heads/*:refs/remotes/seL4/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/projects/tools/seL4.git/config --includes --replace-all remote.seL4.fetch +refs/heads/*:refs/remotes/seL4/* 1>| 2>|
+
+PID: 63435 START: 1729201487022190336 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/tools/seL4.git/clone.bundle.tmp --netrc --location https://github.com/seL4/seL4_tools.git/clone.bundle
+
+PID: 63435 END: 1729201487022380800 :Fetching bundle: curl --fail --output /home/hareesh/seL4test/.repo/projects/tools/seL4.git/clone.bundle.tmp --netrc --location https://github.com/seL4/seL4_tools.git/clone.bundle
+
+PID: 63435 START: 1729201487504638208 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/tools/seL4.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 END: 1729201489835885824 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'fetch', '--quiet', '--progress', 'seL4', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/seL4/*', '+refs/heads/master:refs/remotes/seL4/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/hareesh/seL4test/.repo/projects/tools/seL4.git
+: export GIT_OBJECT_DIRECTORY=/home/hareesh/seL4test/.repo/project-objects/seL4_tools.git.git/objects
+: git fetch --quiet --progress seL4 --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/seL4/* +refs/heads/master:refs/remotes/seL4/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 63435 START: 1729201489836054784 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 END: 1729201489838454272 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 63435 START: 1729201489838510336 :: load refs /home/hareesh/seL4test/.repo/projects/tools/seL4.git
+
+PID: 63435 END: 1729201489838643200 :: load refs /home/hareesh/seL4test/.repo/projects/tools/seL4.git
+
+PID: 63435 START: 1729201489838660608 :: scan refs /home/hareesh/seL4test/.repo/projects/tools/seL4.git
+
+PID: 63435 END: 1729201489838693376 :: scan refs /home/hareesh/seL4test/.repo/projects/tools/seL4.git
+
+PID: 63435 START: 1729201489838797056 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'update-ref', '-m', 'manifest set to bef85f32a4829c5062fd6c808c7cab57b816cd9f', '--no-deref', 'refs/remotes/m/master', 'bef85f32a4829c5062fd6c808c7cab57b816cd9f^0'] with debug: : git update-ref -m manifest set to bef85f32a4829c5062fd6c808c7cab57b816cd9f --no-deref refs/remotes/m/master bef85f32a4829c5062fd6c808c7cab57b816cd9f^0 1>| 2>|
+
+PID: 63435 END: 1729201489840078848 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'update-ref', '-m', 'manifest set to bef85f32a4829c5062fd6c808c7cab57b816cd9f', '--no-deref', 'refs/remotes/m/master', 'bef85f32a4829c5062fd6c808c7cab57b816cd9f^0'] with debug: : git update-ref -m manifest set to bef85f32a4829c5062fd6c808c7cab57b816cd9f --no-deref refs/remotes/m/master bef85f32a4829c5062fd6c808c7cab57b816cd9f^0 1>| 2>|
+
+PID: 63435 START: 1729201489840771328 :: load refs /home/hareesh/seL4test/.repo/repo/.git
+
+PID: 63435 END: 1729201489844367872 :: load refs /home/hareesh/seL4test/.repo/repo/.git
+
+PID: 63726 START: 1729201489859600640 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/kernel
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 END: 1729201489911358976 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/kernel
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 START: 1729201489911492096 :: load refs /home/hareesh/seL4test/.repo/projects/kernel.git
+
+PID: 63726 END: 1729201489911702784 :: load refs /home/hareesh/seL4test/.repo/projects/kernel.git
+
+PID: 63726 START: 1729201489912145152 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/musllibc
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 END: 1729201489961748992 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/musllibc
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 START: 1729201489961880576 :: load refs /home/hareesh/seL4test/.repo/projects/projects/musllibc.git
+
+PID: 63726 END: 1729201489962096640 :: load refs /home/hareesh/seL4test/.repo/projects/projects/musllibc.git
+
+PID: 63726 START: 1729201489962512384 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/seL4_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 END: 1729201489977070592 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/seL4_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 START: 1729201489977161472 :: load refs /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git
+
+PID: 63726 END: 1729201489977346048 :: load refs /home/hareesh/seL4test/.repo/projects/projects/seL4_libs.git
+
+PID: 63726 START: 1729201489977736960 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/sel4_projects_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 END: 1729201489991455488 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/sel4_projects_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 START: 1729201489991535872 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 63726 END: 1729201489991725056 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4_projects_libs.git
+
+PID: 63726 START: 1729201489992103680 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/sel4runtime
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 END: 1729201489995466752 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/sel4runtime
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 START: 1729201489995523072 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git
+
+PID: 63726 END: 1729201489995679744 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4runtime.git
+
+PID: 63726 START: 1729201489996005888 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/sel4test
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 END: 1729201490001644544 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/sel4test
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 START: 1729201490001860352 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4test.git
+
+PID: 63726 END: 1729201490002005504 :: load refs /home/hareesh/seL4test/.repo/projects/projects/sel4test.git
+
+PID: 63726 START: 1729201490002337280 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/util_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 END: 1729201490040903936 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/projects/util_libs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 START: 1729201490041006080 :: load refs /home/hareesh/seL4test/.repo/projects/projects/util_libs.git
+
+PID: 63726 END: 1729201490041193216 :: load refs /home/hareesh/seL4test/.repo/projects/projects/util_libs.git
+
+PID: 63726 START: 1729201490041588224 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/tools/nanopb
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 END: 1729201490062516992 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/tools/nanopb
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 START: 1729201490062609408 :: load refs /home/hareesh/seL4test/.repo/projects/tools/nanopb.git
+
+PID: 63726 END: 1729201490062870784 :: load refs /home/hareesh/seL4test/.repo/projects/tools/nanopb.git
+
+PID: 63726 START: 1729201490063282688 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/tools/opensbi
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 END: 1729201490073300736 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/tools/opensbi
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 START: 1729201490073381888 :: load refs /home/hareesh/seL4test/.repo/projects/tools/opensbi.git
+
+PID: 63726 END: 1729201490073551104 :: load refs /home/hareesh/seL4test/.repo/projects/tools/opensbi.git
+
+PID: 63726 START: 1729201490073897216 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/tools/seL4
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 END: 1729201490082621440 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/hareesh/seL4test/tools/seL4
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 63726 START: 1729201490082876160 :: load refs /home/hareesh/seL4test/.repo/projects/tools/seL4.git
+
+PID: 63726 END: 1729201490083055616 :: load refs /home/hareesh/seL4test/.repo/projects/tools/seL4.git
+
+PID: 63435 START: 1729201490087548928 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.synctime', '2024-10-17T21:44:50.087391+00:00'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.synctime 2024-10-17T21:44:50.087391+00:00 1>| 2>|
+
+PID: 63435 END: 1729201490088820736 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.synctime', '2024-10-17T21:44:50.087391+00:00'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.synctime 2024-10-17T21:44:50.087391+00:00 1>| 2>|
+
+PID: 63435 START: 1729201490088956672 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.version', '1'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.version 1 1>| 2>|
+
+PID: 63435 END: 1729201490089953792 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.version', '1'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.version 1 1>| 2>|
+
+PID: 63435 START: 1729201490090073600 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.sys.argv', "['/home/hareesh/seL4test/.repo/repo/main.py', '--repo-dir=/home/hareesh/seL4test/.repo', '--wrapper-version=2.17', '--wrapper-path=/usr/bin/repo', '--', 'sync']"] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.sys.argv ['/home/hareesh/seL4test/.repo/repo/main.py', '--repo-dir=/home/hareesh/seL4test/.repo', '--wrapper-version=2.17', '--wrapper-path=/usr/bin/repo', '--', 'sync'] 1>| 2>|
+
+PID: 63435 END: 1729201490091102720 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.sys.argv', "['/home/hareesh/seL4test/.repo/repo/main.py', '--repo-dir=/home/hareesh/seL4test/.repo', '--wrapper-version=2.17', '--wrapper-path=/usr/bin/repo', '--', 'sync']"] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.sys.argv ['/home/hareesh/seL4test/.repo/repo/main.py', '--repo-dir=/home/hareesh/seL4test/.repo', '--wrapper-version=2.17', '--wrapper-path=/usr/bin/repo', '--', 'sync'] 1>| 2>|
+
+PID: 63435 START: 1729201490091209216 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobs', '8'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobs 8 1>| 2>|
+
+PID: 63435 END: 1729201490092086784 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobs', '8'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobs 8 1>| 2>|
+
+PID: 63435 START: 1729201490092183040 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.outermanifest', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.outermanifest true 1>| 2>|
+
+PID: 63435 END: 1729201490093100288 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.outermanifest', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.outermanifest true 1>| 2>|
+
+PID: 63435 START: 1729201490093198336 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobsnetwork', '1'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobsnetwork 1 1>| 2>|
+
+PID: 63435 END: 1729201490094131968 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobsnetwork', '1'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobsnetwork 1 1>| 2>|
+
+PID: 63435 START: 1729201490094226432 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobscheckout', '8'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobscheckout 8 1>| 2>|
+
+PID: 63435 END: 1729201490095172352 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobscheckout', '8'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobscheckout 8 1>| 2>|
+
+PID: 63435 START: 1729201490095272448 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.mpupdate', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.mpupdate true 1>| 2>|
+
+PID: 63435 END: 1729201490096171008 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.mpupdate', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.mpupdate true 1>| 2>|
+
+PID: 63435 START: 1729201490096262144 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.clonebundle', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.clonebundle true 1>| 2>|
+
+PID: 63435 END: 1729201490097200640 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.clonebundle', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.clonebundle true 1>| 2>|
+
+PID: 63435 START: 1729201490097292288 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.retryfetches', '0'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.retryfetches 0 1>| 2>|
+
+PID: 63435 END: 1729201490098212352 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.retryfetches', '0'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.retryfetches 0 1>| 2>|
+
+PID: 63435 START: 1729201490098300416 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.prune', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.prune true 1>| 2>|
+
+PID: 63435 END: 1729201490099229696 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.prune', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.prune true 1>| 2>|
+
+PID: 63435 START: 1729201490099328512 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.repoverify', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.repoverify true 1>| 2>|
+
+PID: 63435 END: 1729201490100248064 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.repoverify', 'true'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.repoverify true 1>| 2>|
+
+PID: 63435 START: 1729201490100342784 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.quiet', 'false'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.quiet false 1>| 2>|
+
+PID: 63435 END: 1729201490101246976 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.quiet', 'false'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.quiet false 1>| 2>|
+
+PID: 63435 START: 1729201490101333760 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.verbose', 'false'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.verbose false 1>| 2>|
+
+PID: 63435 END: 1729201490102247680 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.verbose', 'false'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.verbose false 1>| 2>|
+
+PID: 63435 START: 1729201490102380032 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.url', 'https://github.com/seL4/sel4test-manifest.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.url https://github.com/seL4/sel4test-manifest.git 1>| 2>|
+
+PID: 63435 END: 1729201490103355392 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.url', 'https://github.com/seL4/sel4test-manifest.git'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.url https://github.com/seL4/sel4test-manifest.git 1>| 2>|
+
+PID: 63435 START: 1729201490103445504 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 63435 END: 1729201490104435712 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 63435 START: 1729201490104521216 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.remote', 'origin'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.remote origin 1>| 2>|
+
+PID: 63435 END: 1729201490105394432 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.remote', 'origin'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.remote origin 1>| 2>|
+
+PID: 63435 START: 1729201490105484800 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.merge', 'refs/heads/master'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.merge refs/heads/master 1>| 2>|
+
+PID: 63435 END: 1729201490106467072 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.merge', 'refs/heads/master'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.merge refs/heads/master 1>| 2>|
+
+PID: 63435 START: 1729201490106555392 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.existingprojectcount', '0'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.existingprojectcount 0 1>| 2>|
+
+PID: 63435 END: 1729201490107514368 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.existingprojectcount', '0'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.existingprojectcount 0 1>| 2>|
+
+PID: 63435 START: 1729201490107605504 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.newprojectcount', '10'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.newprojectcount 10 1>| 2>|
+
+PID: 63435 END: 1729201490108457728 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--file', '/home/hareesh/seL4test/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.newprojectcount', '10'] with debug: : git config --file /home/hareesh/seL4test/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.newprojectcount 10 1>| 2>|
+
+PID: 63435 START: 1729201490109009152 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 63435 END: 1729201490109883392 :git command /home/hareesh/seL4test/.repo/projects/tools/seL4.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 63435 END: 1729201490111723776 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync [sid=repo-20241017T214420Z-P0000f7cb/repo-20241017T214420Z-P0000f7cb]
+

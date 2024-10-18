@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 2ffa0a153d804910c20b82974bfe2dedcf35a777 Hareesh <hareesh@hareesh-HP-Pavilion-Laptop-15-eg0xxx.(none)> 1729201487 +0530	fetch --quiet --progress opensbi --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/opensbi/* +refs/tags/v0.9:refs/tags/v0.9 +refs/tags/*:refs/tags/*: storing head
